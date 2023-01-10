@@ -1,8 +1,7 @@
-name = "akhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
-if len(name)<3:
-    print("name must be atleast three characters")
+weight = int(input("weight= "))
+Lbs_kgs = input("lbs or kgs? ")
+if Lbs_kgs == "lbs":
+    print("your weight in kg is " , weight*0.45)
 
-elif len(name)>50:
-    print("name should be of maximum 50 characters")
-
-else :print("Name Looks Good!!")
+elif Lbs_kgs == "kgs":
+    print(f" your weight is lbs is {round(weight/0.45)}")
