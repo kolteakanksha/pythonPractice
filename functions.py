@@ -1,8 +1,8 @@
-def func():
-    print("Hi There!!")
+def func(first, last):
+    print(f'Hi {first} {last}')
     print("Good Morning :)")
 
 
 print("Start")
-func()
-print("stop")
+func(last=" Kolte", first="Akanksha")
+print("Finish")
