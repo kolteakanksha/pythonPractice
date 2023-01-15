@@ -1,4 +1,4 @@
-name = input("> ").lower()
+name = input("> ").replace(" ", "").lower()
 
 if name == name[::-1]:
     print(" It is a Palindrome")
