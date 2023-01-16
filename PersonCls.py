@@ -1,4 +1,8 @@
-class point:
+class Point:
+    def __int__(self, x, y):
+        self.x=x
+        self.y=y
+
     def move(self):
         print("Move the point")
 
@@ -6,7 +10,6 @@ class point:
         print("draw the point")
 
 
-point1 = point()
-point1.x=10
+point1 = Point()
 point1.move()
-print(point1.x)
+
