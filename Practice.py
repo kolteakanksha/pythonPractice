@@ -1,7 +1,8 @@
-weight = int(input("weight= "))
-Lbs_kgs = input("lbs or kgs? ")
-if Lbs_kgs == "lbs":
-    print("your weight in kg is " , weight*0.45)
+def is_leap(Year):
+    if ((Year % 400 == 0) or
+            (Year % 100 != 0) and
+            (Year % 4 == 0)):
+        return is_leap()
 
-elif Lbs_kgs == "kgs":
-    print(f" your weight is lbs is {round(weight/0.45)}")
+year = int(input())
+is_leap(year)
